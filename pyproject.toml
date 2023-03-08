@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "stats-with-python"
+version = "0.1.0"
+description = ""
+authors = ["Yash Choksi"]
+readme = "README.md"
+packages = [{include = "stats_with_python"}]
+
+[tool.poetry.dependencies]
+python = "3.8.6"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+ipykernel = "^6.21.3"
+ipython = "^8.11.0"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
