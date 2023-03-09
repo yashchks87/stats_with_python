@@ -13,6 +13,7 @@ pandas = "^1.5.3"
 ipykernel = "^6.21.3"
 ipython = "^8.11.0"
 matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
 
 
 [build-system]
